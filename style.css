@@ -98,6 +98,9 @@ section h2 {
 #unit-power {
     border-bottom: 1px solid #000;
 }
+#unit-power　h２　{
+    padding-bottom:45px;
+}
 #unit-power > div {
     width: 1000px;
     margin: 0 auto;
