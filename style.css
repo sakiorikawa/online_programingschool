@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*　サイトcss　*/
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header {
+    background: #fddc00;
+    padding: 15px 60px;
+}
+header p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+main {
+    display: block;
+    background: url(mv.jpg) center center /cover no-repeat;
+    position: relative;
+    height: 550px;
+}
+main h1 {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+}
+main p {
+    position: absolute;
+    bottom: 25px;
+    right: 60px;
+}
+section {
+    padding: 60px 0;
+}
+section h2 {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#unit-about {
+    background: #fddc00;
+    text-align: center;
+}
+#unit-about p {
+    font-size: 14px;
+    line-height: 2;
+}
+#unit-power {
+    border-bottom: 1px solid #000;
+}
+#unit-power > div {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#unit-power > div dl {
+    flex: 0 0 290px;
+}
+#unit-power > div dl dd strong {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: #ff6b00;
+    padding: 25px 0;
+}
+#unit-power > div dl dd p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+#unit-course > div {
+    width: 1000px;
+    margin: 0 auto;
+}
+#unit-course > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#unit-course > div dl {
+    width: 355px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.7;
+}
+#unit-course > div dl dt {
+    width: 355px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff6b00;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#unit-course > div dl dt span {
+    background: #fff;
+    padding: 0 15px;
+}
+#unit-voice {
+    background: #fddc00;
+}
+#unit-voice ul {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#unit-voice ul li {
+    width: 240px;
+    height: 190px;
+    font-size: 14px;
+    line-height: 1.7;
+    background: url(ballon.png)center center /cover no-repeat;
+    padding: 40px 20px 0;
+    box-sizing: border-box;
+}
+#unit-voice ul li:nth-child(-n+4) {
+    margin-bottom: 10px;
+}
+
+footer {
+    padding-top: 60px;
+    text-align: center;
+}
+footer p {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+footer p span {
+    position: relative;
+}
+footer p span::before,
+footer p span::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #000;
+    position: absolute;    
+}
+footer p span::before {
+    top: 10px;
+    left: -45px;
+    transform: rotate(45deg);
+}
+footer p span::after {
+    top: 10px;
+    right: -45px;
+    transform: rotate(-45deg);
+}
+footer a {
+    display: block;
+    width: 600px;
+    height: 90px;
+    margin: 0 auto 140px;
+    background: #ff6b00;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 90px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+footer a:hover {
+    opacity: 0.7;
+}
+footer small {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
