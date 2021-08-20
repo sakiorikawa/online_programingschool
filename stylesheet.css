@@ -63,7 +63,7 @@ header p {
 }
 main {
     display: block;
-    background: url(mv.jpg) center center /cover no-repeat;
+    background: url('mv.jpg') center center /cover no-repeat;
     position: relative;
     height: 550px;
 }
@@ -166,7 +166,7 @@ section h2 {
     height: 190px;
     font-size: 14px;
     line-height: 1.7;
-    background: url(ballon.png)center center /cover no-repeat;
+    background: url('ballon.png')center center /cover no-repeat;
     padding: 40px 20px 0;
     box-sizing: border-box;
 }
