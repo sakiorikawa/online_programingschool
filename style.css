@@ -87,6 +87,9 @@ section h2 {
     text-align: center;
     padding-bottom: 30px;
 }
+#unit-power h2 {
+    padding-bottom: 45px;
+}
 #unit-about {
     background: #fddc00;
     text-align: center;
@@ -97,9 +100,6 @@ section h2 {
 }
 #unit-power {
     border-bottom: 1px solid #000;
-}
-#unit-power　h２　{
-    padding-bottom:45px;
 }
 #unit-power > div {
     width: 1000px;
